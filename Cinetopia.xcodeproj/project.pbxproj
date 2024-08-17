@@ -9,21 +9,49 @@
 /* Begin PBXBuildFile section */
 		DDC9A0E62C47E8CC006EB209 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC9A0E52C47E8CC006EB209 /* AppDelegate.swift */; };
 		DDC9A0E82C47E8CC006EB209 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC9A0E72C47E8CC006EB209 /* SceneDelegate.swift */; };
-		DDC9A0EA2C47E8CC006EB209 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC9A0E92C47E8CC006EB209 /* ViewController.swift */; };
-		DDC9A0ED2C47E8CC006EB209 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC9A0EB2C47E8CC006EB209 /* Main.storyboard */; };
+		DDC9A0EA2C47E8CC006EB209 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC9A0E92C47E8CC006EB209 /* HomeViewController.swift */; };
 		DDC9A0EF2C47E8CE006EB209 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC9A0EE2C47E8CE006EB209 /* Assets.xcassets */; };
 		DDC9A0F22C47E8CE006EB209 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC9A0F02C47E8CE006EB209 /* LaunchScreen.storyboard */; };
+		DDC9A0FA2C4966F2006EB209 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC9A0F92C4966F2006EB209 /* MoviesViewController.swift */; };
+		DDC9A0FE2C49B107006EB209 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC9A0FD2C49B107006EB209 /* Movie.swift */; };
+		DDC9A1012C49C14C006EB209 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC9A1002C49C14C006EB209 /* MovieTableViewCell.swift */; };
+		DDC9A1032C4A7C13006EB209 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC9A1022C4A7C13006EB209 /* MovieDetailsViewController.swift */; };
+		DDC9A1062C4AE268006EB209 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC9A1052C4AE268006EB209 /* MovieService.swift */; };
+		DDCE1B7D2C503C7000749403 /* FavoriteMoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCE1B7C2C503C7000749403 /* FavoriteMoviesViewController.swift */; };
+		DDCE1B812C512DAA00749403 /* FavoriteMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCE1B802C512DAA00749403 /* FavoriteMovieViewController.swift */; };
+		DDCE1B832C518B4C00749403 /* FavoriteCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCE1B822C518B4C00749403 /* FavoriteCollectionReusableView.swift */; };
+		DDCE1B852C51AF7A00749403 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCE1B842C51AF7A00749403 /* TabBarController.swift */; };
+		DDCE1B872C52FD6800749403 /* MovieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCE1B862C52FD6800749403 /* MovieManager.swift */; };
+		DDCE1B8A2C5974FA00749403 /* MoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCE1B892C5974FA00749403 /* MoviesView.swift */; };
+		DDCE1B8D2C59837B00749403 /* MoviesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCE1B8C2C59837B00749403 /* MoviesPresenter.swift */; };
+		DDCE1B902C62AEA100749403 /* MoviesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCE1B8F2C62AEA100749403 /* MoviesInteractor.swift */; };
+		F4D95C039D36E9941F7E3812 /* Pods_Cinetopia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0F2DDCB52E7F2042BC27A1E /* Pods_Cinetopia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		68877AC77ED2BF2C5C20E2DC /* Pods-Cinetopia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cinetopia.debug.xcconfig"; path = "Target Support Files/Pods-Cinetopia/Pods-Cinetopia.debug.xcconfig"; sourceTree = "<group>"; };
+		999094CDCD83250ABFAAE4FB /* Pods-Cinetopia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cinetopia.release.xcconfig"; path = "Target Support Files/Pods-Cinetopia/Pods-Cinetopia.release.xcconfig"; sourceTree = "<group>"; };
+		B0F2DDCB52E7F2042BC27A1E /* Pods_Cinetopia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cinetopia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC9A0E22C47E8CC006EB209 /* Cinetopia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cinetopia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC9A0E52C47E8CC006EB209 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDC9A0E72C47E8CC006EB209 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DDC9A0E92C47E8CC006EB209 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DDC9A0EC2C47E8CC006EB209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDC9A0E92C47E8CC006EB209 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DDC9A0EE2C47E8CE006EB209 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDC9A0F12C47E8CE006EB209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDC9A0F32C47E8CE006EB209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDC9A0F92C4966F2006EB209 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		DDC9A0FD2C49B107006EB209 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		DDC9A1002C49C14C006EB209 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		DDC9A1022C4A7C13006EB209 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		DDC9A1052C4AE268006EB209 /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
+		DDCE1B7C2C503C7000749403 /* FavoriteMoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteMoviesViewController.swift; sourceTree = "<group>"; };
+		DDCE1B802C512DAA00749403 /* FavoriteMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteMovieViewController.swift; sourceTree = "<group>"; };
+		DDCE1B822C518B4C00749403 /* FavoriteCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCollectionReusableView.swift; sourceTree = "<group>"; };
+		DDCE1B842C51AF7A00749403 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		DDCE1B862C52FD6800749403 /* MovieManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieManager.swift; sourceTree = "<group>"; };
+		DDCE1B892C5974FA00749403 /* MoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesView.swift; sourceTree = "<group>"; };
+		DDCE1B8C2C59837B00749403 /* MoviesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesPresenter.swift; sourceTree = "<group>"; };
+		DDCE1B8F2C62AEA100749403 /* MoviesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +59,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4D95C039D36E9941F7E3812 /* Pods_Cinetopia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07713E3D3DD8DDFCA49B3087 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68877AC77ED2BF2C5C20E2DC /* Pods-Cinetopia.debug.xcconfig */,
+				999094CDCD83250ABFAAE4FB /* Pods-Cinetopia.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5BDDEA1DEBD149D4AB2A5DC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0F2DDCB52E7F2042BC27A1E /* Pods_Cinetopia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DDC9A0D92C47E8CC006EB209 = {
 			isa = PBXGroup;
 			children = (
 				DDC9A0E42C47E8CC006EB209 /* Cinetopia */,
 				DDC9A0E32C47E8CC006EB209 /* Products */,
+				07713E3D3DD8DDFCA49B3087 /* Pods */,
+				5BDDEA1DEBD149D4AB2A5DC3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +104,83 @@
 		DDC9A0E42C47E8CC006EB209 /* Cinetopia */ = {
 			isa = PBXGroup;
 			children = (
-				DDC9A0E52C47E8CC006EB209 /* AppDelegate.swift */,
+				DDC9A1042C4AE249006EB209 /* Services */,
+				DDC9A0FF2C49C0FF006EB209 /* Cells */,
+				DDC9A0FC2C49B0EE006EB209 /* Models */,
+				DDC9A0FB2C49B0CA006EB209 /* Views */,
+				DDCE1B8B2C5982DF00749403 /* Presenters */,
+				DDCE1B8E2C62AE7400749403 /* Interactors */,
 				DDC9A0E72C47E8CC006EB209 /* SceneDelegate.swift */,
-				DDC9A0E92C47E8CC006EB209 /* ViewController.swift */,
-				DDC9A0EB2C47E8CC006EB209 /* Main.storyboard */,
+				DDC9A0E52C47E8CC006EB209 /* AppDelegate.swift */,
 				DDC9A0EE2C47E8CE006EB209 /* Assets.xcassets */,
 				DDC9A0F02C47E8CE006EB209 /* LaunchScreen.storyboard */,
 				DDC9A0F32C47E8CE006EB209 /* Info.plist */,
 			);
 			path = Cinetopia;
+			sourceTree = "<group>";
+		};
+		DDC9A0FB2C49B0CA006EB209 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DDC9A0E92C47E8CC006EB209 /* HomeViewController.swift */,
+				DDCE1B882C59749500749403 /* Movies */,
+				DDC9A1022C4A7C13006EB209 /* MovieDetailsViewController.swift */,
+				DDCE1B7C2C503C7000749403 /* FavoriteMoviesViewController.swift */,
+				DDCE1B842C51AF7A00749403 /* TabBarController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DDC9A0FC2C49B0EE006EB209 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DDC9A0FD2C49B107006EB209 /* Movie.swift */,
+				DDCE1B862C52FD6800749403 /* MovieManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DDC9A0FF2C49C0FF006EB209 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DDC9A1002C49C14C006EB209 /* MovieTableViewCell.swift */,
+				DDCE1B802C512DAA00749403 /* FavoriteMovieViewController.swift */,
+				DDCE1B822C518B4C00749403 /* FavoriteCollectionReusableView.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		DDC9A1042C4AE249006EB209 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DDC9A1052C4AE268006EB209 /* MovieService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DDCE1B882C59749500749403 /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				DDC9A0F92C4966F2006EB209 /* MoviesViewController.swift */,
+				DDCE1B892C5974FA00749403 /* MoviesView.swift */,
+			);
+			path = Movies;
+			sourceTree = "<group>";
+		};
+		DDCE1B8B2C5982DF00749403 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				DDCE1B8C2C59837B00749403 /* MoviesPresenter.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		DDCE1B8E2C62AE7400749403 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				DDCE1B8F2C62AEA100749403 /* MoviesInteractor.swift */,
+			);
+			path = Interactors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDC9A0F62C47E8CE006EB209 /* Build configuration list for PBXNativeTarget "Cinetopia" */;
 			buildPhases = (
+				03E2E37C483EF084C17EE855 /* [CP] Check Pods Manifest.lock */,
 				DDC9A0DE2C47E8CC006EB209 /* Sources */,
 				DDC9A0DF2C47E8CC006EB209 /* Frameworks */,
 				DDC9A0E02C47E8CC006EB209 /* Resources */,
+				FEE406DF779E7B8EA43FFFF8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +245,80 @@
 			files = (
 				DDC9A0F22C47E8CE006EB209 /* LaunchScreen.storyboard in Resources */,
 				DDC9A0EF2C47E8CE006EB209 /* Assets.xcassets in Resources */,
-				DDC9A0ED2C47E8CC006EB209 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03E2E37C483EF084C17EE855 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cinetopia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEE406DF779E7B8EA43FFFF8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cinetopia/Pods-Cinetopia-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cinetopia/Pods-Cinetopia-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cinetopia/Pods-Cinetopia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DDC9A0DE2C47E8CC006EB209 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDC9A0EA2C47E8CC006EB209 /* ViewController.swift in Sources */,
+				DDCE1B7D2C503C7000749403 /* FavoriteMoviesViewController.swift in Sources */,
+				DDCE1B812C512DAA00749403 /* FavoriteMovieViewController.swift in Sources */,
+				DDC9A0EA2C47E8CC006EB209 /* HomeViewController.swift in Sources */,
+				DDCE1B902C62AEA100749403 /* MoviesInteractor.swift in Sources */,
 				DDC9A0E62C47E8CC006EB209 /* AppDelegate.swift in Sources */,
+				DDCE1B832C518B4C00749403 /* FavoriteCollectionReusableView.swift in Sources */,
+				DDC9A1012C49C14C006EB209 /* MovieTableViewCell.swift in Sources */,
 				DDC9A0E82C47E8CC006EB209 /* SceneDelegate.swift in Sources */,
+				DDC9A0FA2C4966F2006EB209 /* MoviesViewController.swift in Sources */,
+				DDCE1B872C52FD6800749403 /* MovieManager.swift in Sources */,
+				DDC9A0FE2C49B107006EB209 /* Movie.swift in Sources */,
+				DDCE1B852C51AF7A00749403 /* TabBarController.swift in Sources */,
+				DDCE1B8A2C5974FA00749403 /* MoviesView.swift in Sources */,
+				DDC9A1062C4AE268006EB209 /* MovieService.swift in Sources */,
+				DDC9A1032C4A7C13006EB209 /* MovieDetailsViewController.swift in Sources */,
+				DDCE1B8D2C59837B00749403 /* MoviesPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DDC9A0EB2C47E8CC006EB209 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DDC9A0EC2C47E8CC006EB209 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DDC9A0F02C47E8CE006EB209 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,16 +451,17 @@
 		};
 		DDC9A0F72C47E8CE006EB209 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68877AC77ED2BF2C5C20E2DC /* Pods-Cinetopia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Cinetopia/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -314,16 +479,17 @@
 		};
 		DDC9A0F82C47E8CE006EB209 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 999094CDCD83250ABFAAE4FB /* Pods-Cinetopia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Cinetopia/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
